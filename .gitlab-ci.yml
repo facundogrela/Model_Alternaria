@@ -1,0 +1,4 @@
+include:
+  - project: 'VIPS/vips-common-config'
+    file: '/gitlab-ci-vips-models.yml'
+    ref: main

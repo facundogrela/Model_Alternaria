@@ -1,0 +1,31 @@
+{
+    "loginInfo": {
+        "username": "example",
+        "password": "example"
+    },
+    "modelId": "ALTERNARIA",
+    "configParameters": {
+        "sprayingDates": [
+            "2018-07-02T22:00:00Z",
+            "2018-07-30T22:00:00Z",
+            "2018-09-04T22:00:00Z"
+        ],
+        "thresholdDSVTempMin": "10.0",
+        "thresholdDSVMax": "20.0",
+        "timeZone": "Europe/Oslo",
+        "observations": [
+            {
+                "elementMeasurementTypeId": "TM",
+                "logIntervalId": 1,
+                "timeMeasured": "2018-08-11T00:00:00+02:00",
+                "value": 10.46
+            },
+            {
+                "elementMeasurementTypeId": "BT",
+                "logIntervalId": 1,
+                "timeMeasured": "2018-08-11T00:00:00+02:00",
+                "value": 60
+            }
+        ]
+    }
+}
